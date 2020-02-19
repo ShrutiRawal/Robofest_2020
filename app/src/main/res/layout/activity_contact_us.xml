@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AboutUsActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/textContact"
+            android:textSize="35sp"
+            android:fontFamily="monospace"
+            android:text="Get In Touch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feel free to get in touch with us. we are always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+
+Or you can ask us any query regarding Robotix, we assure you that it would be our topmost priority to answer you.\n\n Fill the form below to continue"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_below="@id/textContact"
+            android:id="@+id/desContact"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_name"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:hint="Name"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/desContact"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/input_email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:hint="E-mail"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/input_name"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/input_query"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:hint="Your message here..."
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/input_email"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_query"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:id="@+id/submit"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

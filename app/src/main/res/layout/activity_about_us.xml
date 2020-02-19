@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/logo_white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:id="@+id/logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textSize="30sp"
+                android:text="Who Are We?"
+                android:layout_below="@id/logo"
+                android:id="@+id/whoAreWe"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textSize="15sp"
+                android:text="The Robotix Club of NIT Raipur is the perfect combination of innovators, contributors and experts in the field of Robotics. The club has been inspiring minds ever since its inception in 2014.
+
+The foundation of Robotix Club was laid by a group of enthusiastic and ardent students with a vision to promote the versatile field of robotics and it’s ever growing application in present time.
+
+We make sure that every student seeking the knowledge gets it .The club is guided by our esteemed faculty In charge Dr. Rajesh Doriya (Department of Information Technology) who makes sure there is proper functioning of the club."
+                android:layout_below="@id/whoAreWe"
+                android:id="@+id/whoAreWeText"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textSize="30sp"
+                android:text="Our Vision"
+                android:layout_below="@id/whoAreWeText"
+                android:id="@+id/vision"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textSize="15sp"
+                android:text="Robotix Club NITRR strives to develop technological skills in the diverse field of mechatronics and robotics by transcending the theoretical knowledge into live application and providing live simple yet creative solution for real world complex problems.
+
+The club's focus has always been on student specific events and workshops to increase the reach of robotics in the college. Major part of the club has been involved with students as well as teachers working together as a cohesive unit."
+                android:layout_below="@id/vision"
+                android:id="@+id/visionText"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textSize="30sp"
+                android:text="What Do We Do?"
+                android:layout_below="@id/visionText"
+                android:id="@+id/whatDoWeDo"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textSize="15sp"
+                android:text="Kick-starting its journey with a workshop on manual robotics to now providing insight to most advanced topics like Artificial Intelligence, the club has been through a remarkable journey and it continues to inspire the students to explore the discipline of Robotics.
+
+The club conducts regular workshops and competitions to advance robotics in college. The workshops include free workshops as well as paid workshops where students get to know everything, from the basics of robotics to advance mechanisms of robotics."
+                android:layout_below="@id/whatDoWeDo"
+                android:id="@+id/whatDoWeDoText"
+                android:layout_marginTop="20dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

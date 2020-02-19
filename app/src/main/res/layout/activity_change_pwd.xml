@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ChangePwdActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textChangePwd"
+            android:text="Change Password"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desChangePwd"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Please enter the following details to continue - "
+            android:layout_below="@id/textChangePwd"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Old password"
+            android:textSize="20sp"
+            android:layout_below="@id/desChangePwd"
+            android:layout_marginStart="10dp"
+            android:id="@+id/inputOldPwd"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="New password"
+            android:textSize="20sp"
+            android:layout_below="@id/inputOldPwd"
+            android:layout_marginStart="10dp"
+            android:id="@+id/inputNewPwd"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Confirm New password"
+            android:textSize="20sp"
+            android:layout_below="@id/inputNewPwd"
+            android:layout_marginStart="10dp"
+            android:id="@+id/confirmNewPwd"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Go"
+            android:layout_below="@id/confirmNewPwd"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

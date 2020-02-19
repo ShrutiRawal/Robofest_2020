@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="About Us"
+                android:id="@+id/aboutUs"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="Events"
+                android:id="@+id/events"
+                android:layout_marginTop="30dp"
+                android:paddingStart="20dp"
+                android:layout_toRightOf="@+id/aboutUs"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="Our Sponsors"
+                android:id="@+id/sponsors"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_below="@id/aboutUs"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="Contact Us"
+                android:id="@+id/contactUs"
+                android:layout_below="@id/events"
+                android:paddingStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/sponsors" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottom_navigation_view"></include>
+
+    </RelativeLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".HackathonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="ROBOTHON 2020"
+                android:fontFamily="casual"
+                android:textSize="40sp"
+                android:id="@+id/textRobo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="A Robothon is a Robotics Hackathon organized by Robotix Club NIT Raipur, for the sole purpose of bringing robotics enthusiasts together and discussing real life problems and their solution by creative ideas within a limited time frame by employing and enhancing technical skills that participants already have. It is all about robotics, automation and education.\n\nThe Robothon would be a 32 hour long challenge where a number of problem statements would be launched prior to the event. The Problem statements would range from IOT projects to defense related problems. A team is allowed to select a problem of their choice and come up with a viable solution.\n\nA team would consist of 6 students (irrespective of their branches), having the zeal and enthusiasm to build a robot capable of solving real-life problems.\n"
+                android:textSize="20sp"
+                android:id="@+id/desRobo"
+                android:layout_below="@id/textRobo"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply for Robothon 2020"
+                android:layout_below="@id/desRobo"
+                android:id="@+id/applyrobo"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottom_navigation_view"></include>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ExpoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="ROBOEXPO 2020"
+                android:fontFamily="casual"
+                android:textSize="40sp"
+                android:id="@+id/textRobo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="The Robo Expo 3.0 is an exhibition held to provide a glimpse of the future with robot technology incorporated in society. Examples of robot introduction being promoted by companies, organizations and various participating schools are displayed calling visitor’s attention to the future of robotics. Robots that have a potential to be employed in various industries such as manufacturing, health care, service robots and disaster management are displayed to open up the minds of the visitors to the endless use of Bots."
+                android:textSize="20sp"
+                android:id="@+id/desRobo"
+                android:layout_below="@id/textRobo"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply for Roboexpo 2020"
+                android:layout_below="@id/desRobo"
+                android:id="@+id/applyrobo"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottom_navigation_view"></include>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
