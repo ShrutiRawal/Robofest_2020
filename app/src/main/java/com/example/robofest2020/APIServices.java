@@ -12,4 +12,10 @@ public interface APIServices {
     @POST("rest-auth/registration/")
     Call<AuthResponseR> postRegisterUser(@Body RegisterDetails registerDetails);
 
+    @POST("rest-auth/password/reset/")
+    Call<AuthResponseFP> postForgotPass(@Body FPDetails cfDetails);
+
+    @POST("rest-auth/password/change/")
+    Call<AuthResponseCP> postChangePass(@Body CPDetails cpdetails);
+
 }

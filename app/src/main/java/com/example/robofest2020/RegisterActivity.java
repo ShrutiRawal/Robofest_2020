@@ -81,7 +81,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<AuthResponseR> call, Throwable t) {
-                Toast.makeText(RegisterActivity.this, "Registration failed!. Please try again in some time.",Toast.LENGTH_SHORT).show();
+                Toast.makeText(RegisterActivity.this, "Registration failed!."+t.getMessage(),Toast.LENGTH_SHORT).show();
             }
         });
 

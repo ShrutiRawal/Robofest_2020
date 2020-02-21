@@ -7,15 +7,15 @@ import java.io.Serializable;
 
 public class AuthResponseR implements Serializable {
 
-    @SerializedName("username")
-    @Expose
-    private
-    String username;
-
     @SerializedName("email")
     @Expose
     private
     String email;
+
+    @SerializedName("name")
+    @Expose
+    private
+    String name;
 
     @SerializedName("phone_no")
     @Expose
@@ -32,12 +32,12 @@ public class AuthResponseR implements Serializable {
     private
     String password1;
 
-    public String getUsername() {
-        return username;
+    public String getname() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setname(String name) {
+        this.name = name;
     }
 
     public String getEmail() {

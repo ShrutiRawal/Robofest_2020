@@ -7,15 +7,15 @@ import java.io.Serializable;
 
 public class RegisterDetails implements Serializable {
 
-    @SerializedName("username")
-    @Expose
-    private
-    String username;
-
     @SerializedName("email")
     @Expose
     private
     String email;
+
+    @SerializedName("name")
+    @Expose
+    private
+    String name;
 
     @SerializedName("phone_no")
     @Expose
@@ -32,16 +32,16 @@ public class RegisterDetails implements Serializable {
     private
     String password1;
 
-    public RegisterDetails(String username, String email, String phone_no, String password, String password1) {
-        this.username = username;
+    public RegisterDetails(String name, String email, String phone_no, String password, String password1) {
+        this.name = name;
         this.email = email;
         this.phone_no = phone_no;
         this.password = password;
         this.password1 = password1;
     }
 
-    public String getUsername() {
-        return username;
+    public String getname() {
+        return name;
     }
 
     public String getEmail() {
