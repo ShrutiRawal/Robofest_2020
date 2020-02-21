@@ -19,7 +19,7 @@
             android:id="@+id/textLogin"/>
 
         <EditText
-            android:id="@+id/input_name"
+            android:id="@+id/input_username"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:ems="10"
@@ -31,15 +31,15 @@
 
 
         <EditText
-            android:id="@+id/input_username"
+            android:id="@+id/input_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:ems="10"
-            android:hint="Please enter your username/email"
+            android:hint="Please enter your email"
             android:textColorHint="@color/black"
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:layout_below="@id/input_name"/>
+            android:layout_below="@id/input_username"/>
 
         <EditText
             android:id="@+id/input_password"
@@ -47,7 +47,7 @@
             android:layout_height="50dp"
             android:ems="10"
             android:inputType="textPassword"
-            android:layout_below="@id/input_username"
+            android:layout_below="@id/input_email"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:textSize="15sp"
