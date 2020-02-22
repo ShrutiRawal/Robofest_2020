@@ -2,9 +2,11 @@ package com.example.robofest2020;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -25,6 +27,13 @@ public class ExpoActivity extends AppCompatActivity {
         textRobo = findViewById(R.id.textRobo);
         desRobo = findViewById(R.id.desRobo);
         applyRobo = findViewById(R.id.applyrobo);
+        applyRobo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ExpoActivity.this,EventsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setUpBottomNavigationView(){

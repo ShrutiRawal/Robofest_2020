@@ -7,9 +7,13 @@ import android.webkit.WebView;
 
 public class EventsActivity extends AppCompatActivity {
 
+    WebView loadEvents;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
+        loadEvents = findViewById(R.id.loadEvent);
+        loadEvents.loadUrl("https://www.robotix.nitrr.ac.in/events/");
     }
 }

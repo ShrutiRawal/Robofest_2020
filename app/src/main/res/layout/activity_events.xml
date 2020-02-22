@@ -7,19 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".EventsActivity">
 
-    <ScrollView
+    <WebView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-
-
-        </RelativeLayout>
-
-    </ScrollView>
+        android:layout_height="match_parent"
+        android:id="@+id/loadEvent"></WebView>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

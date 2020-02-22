@@ -23,13 +23,13 @@
                 android:textColor="@color/white"
                 android:text="ROBOEXPO 2020"
                 android:fontFamily="casual"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:id="@+id/textRobo"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/white"
                 android:text="The Robo Expo 3.0 is an exhibition held to provide a glimpse of the future with robot technology incorporated in society. Examples of robot introduction being promoted by companies, organizations and various participating schools are displayed calling visitor’s attention to the future of robotics. Robots that have a potential to be employed in various industries such as manufacturing, health care, service robots and disaster management are displayed to open up the minds of the visitors to the endless use of Bots."
                 android:textSize="20sp"

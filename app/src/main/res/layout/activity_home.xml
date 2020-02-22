@@ -36,7 +36,7 @@
             <Button
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:text="Our Sponsors"
+                android:text="Our Achievements"
                 android:id="@+id/sponsors"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"

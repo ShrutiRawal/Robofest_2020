@@ -23,15 +23,15 @@
                 android:textColor="@color/white"
                 android:text="ROBOTHON 2020"
                 android:fontFamily="casual"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:id="@+id/textRobo"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/white"
-                android:text="A Robothon is a Robotics Hackathon organized by Robotix Club NIT Raipur, for the sole purpose of bringing robotics enthusiasts together and discussing real life problems and their solution by creative ideas within a limited time frame by employing and enhancing technical skills that participants already have. It is all about robotics, automation and education.\n\nThe Robothon would be a 32 hour long challenge where a number of problem statements would be launched prior to the event. The Problem statements would range from IOT projects to defense related problems. A team is allowed to select a problem of their choice and come up with a viable solution.\n\nA team would consist of 6 students (irrespective of their branches), having the zeal and enthusiasm to build a robot capable of solving real-life problems.\n"
+                android:text="A Robothon is a Robotics Hackathon organized by Robotix Club NIT Raipur, for the sole purpose of bringing robotics enthusiasts together and discussing real life problems and their solution by creative ideas within a limited time frame by employing and enhancing technical skills that participants already have. It is all about robotics, automation and education.\nThe Robothon would be a 32 hour long challenge where a number of problem statements would be launched prior to the event. The Problem statements would range from IOT projects to defense related problems. A team is allowed to select a problem of their choice and come up with a viable solution.\nA team would consist of 6 students (irrespective of their branches), having the zeal and enthusiasm to build a robot capable of solving real-life problems."
                 android:textSize="20sp"
                 android:id="@+id/desRobo"
                 android:layout_below="@id/textRobo"/>
