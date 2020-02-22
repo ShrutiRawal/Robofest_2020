@@ -48,7 +48,7 @@
             android:id="@+id/noLogout"
             android:layout_marginTop="20dp"
             android:layout_below="@id/confirmLogout"
-            android:layout_marginStart="170dp"
+            android:layout_marginStart="160dp"
             android:layout_toRightOf="@id/yesLogout"/>
 
     </RelativeLayout>

@@ -73,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Go"
+            android:id="@+id/go"
             android:layout_below="@id/confirmNewPwd"
             android:layout_marginTop="20dp"/>
 

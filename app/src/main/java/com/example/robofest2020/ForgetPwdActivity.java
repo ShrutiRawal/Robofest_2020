@@ -21,7 +21,7 @@ public class ForgetPwdActivity extends AppCompatActivity {
     private TextView textVerify , textChange;
     private EditText inputEmail;
     private Button go;
-    private String change = "Cp";
+    private String change = "Fp";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

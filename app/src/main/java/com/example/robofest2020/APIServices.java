@@ -18,4 +18,7 @@ public interface APIServices {
     @POST("rest-auth/password/change/")
     Call<AuthResponseCP> postChangePass(@Body CPDetails cpdetails);
 
+    @POST("rest-auth/logout/")
+    Call<AuthResponseLO> postLogout();
+
 }
